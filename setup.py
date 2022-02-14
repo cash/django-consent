@@ -13,7 +13,7 @@ setuptools.setup(
     author="Cash Costello",
     author_email="cash.costello@gmail.com",
     license="BSD",
-    packages=setuptools.find_packages(include=['consent']),
+    packages=setuptools.find_packages(),
     include_package_data=True,
     python_requires=">=3.6",
     classifiers=[
