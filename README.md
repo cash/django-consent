@@ -3,7 +3,7 @@ This app provides a configurable notice of consent banner for Django.
 It uses Bootstrap CSS classes including container, alert, and alert-secondary.
 
 ## Installation
-1. `pip install django-consent`
+1. `pip install django-monitor-consent`
 2. Add `consent` to `INSTALLED_APPS`
 3. Set `CONSENT_TEXT` in your settings:
   ```python

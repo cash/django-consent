@@ -4,12 +4,12 @@ with open("README.md") as fp:
     long_description = fp.read()
 
 setuptools.setup(
-    name="django-consent",
+    name="django-monitor-consent",
     version="1.0",
     description="Django app for displaying a consent to monitoring banner",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/cash/django-consent",
+    url="https://github.com/cash/django-monitor-consent",
     author="Cash Costello",
     author_email="cash.costello@gmail.com",
     license="BSD",
