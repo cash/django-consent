@@ -9,10 +9,9 @@ It uses Bootstrap CSS classes including container, alert, and alert-secondary.
   ```python
   CONSENT_TEXT = "This computer system is provided only for authorized use..."
   ```
-4. Include the banner template in your login page after loading the template tag:
+4. Include the banner template in your login page:
   ```
-  {% load consent_tags %}
-  {% consent_banner %}
+  {% include "consent/banner.html" %}
   ```
 
 The text is automatically wrapped in paragraph tags.

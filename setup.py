@@ -5,7 +5,7 @@ with open("README.md") as fp:
 
 setuptools.setup(
     name="django-monitor-consent",
-    version="1.0",
+    version="1.1",
     description="Django app for displaying a consent to monitoring banner",
     long_description=long_description,
     long_description_content_type="text/markdown",
